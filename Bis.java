@@ -23,4 +23,13 @@ public class Bis extends Kendaraan{
         System.out.println("4. Bensin penuh");
         System.out.println("5. Televisi");
     }
+
+    @Override
+    void display(){
+        System.out.println("Tipe: " + tipeKendaraan);
+        System.out.println("Harga/hari: " + hargaKendaraan);
+        System.out.println("Maksimum Kapasitas: " + maksKapasitas);
+        System.out.println("Deskripsi: Sleeper Bus cocok untuk perjalanan jauh" );
+    }
 }
+
