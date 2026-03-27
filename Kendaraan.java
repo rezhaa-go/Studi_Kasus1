@@ -1,6 +1,6 @@
 package Studi_Kasus;
 
-public class Kendaraan {
+abstract class Kendaraan {
     protected String tipeKendaraan;
     protected double hargaKendaraan;
     protected int maksKapasitas;
@@ -13,9 +13,5 @@ public class Kendaraan {
         return maksKapasitas >= jumlahPelanggan;
     }
 
-    public void display(){
-        System.out.println("Tipe: " + tipeKendaraan);
-        System.out.println("Harga/hari: " + hargaKendaraan);
-        System.out.println("Maksimum Kapasitas: " + maksKapasitas);
-    }
+    abstract void display();
 }
