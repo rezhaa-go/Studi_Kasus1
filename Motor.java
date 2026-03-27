@@ -23,4 +23,13 @@ public class Motor extends Kendaraan {
         System.out.println("4. Bensin penuh");
         System.out.println("5. Riding Gloves");
     }
+
+    @Override
+    void display(){
+        System.out.println("Tipe: " + tipeKendaraan);
+        System.out.println("Harga/hari: " + hargaKendaraan);
+        System.out.println("Maksimum Kapasitas: " + maksKapasitas);
+        System.out.println("Deskripsi: Motor untuk 2 penumpang" );
+    }
 }
+
