@@ -21,7 +21,7 @@ public class FilkomTravelApp {
         System.out.print("Pilihan: ");
         int pilihan = sc.nextInt();
 
-        Kendaraan k1 = new Kendaraan();
+        Kendaraan k1 = null;
 
         switch (pilihan){
             case 1:
