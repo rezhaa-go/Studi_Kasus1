@@ -17,7 +17,7 @@ public class Pemesanan {
         this.tanggalMulai = tanggalMulai;
         this.tanggalSelesai = tanggalSelesai;
         this.jumlahPenumpang = jumlahPenumpang;
-        hitungTotal();
+        hitungDiskon();
     }
 
     public int getLamaPenyewaan(){
@@ -32,7 +32,7 @@ public class Pemesanan {
         return tanggalSelesai;
     }
 
-    public void hitungTotal(){
+    public void hitungDiskon(){
         totalHarga = kendaraan.hargaSewa(lamaPenyewaan);
         this.hargaDiskon = pelanggan.diskon(totalHarga);
     }
