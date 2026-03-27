@@ -35,7 +35,9 @@ public class FilkomTravelApp {
             case 3:
                 k1 = new Bis();
                 System.out.println("Bis telah dipilih");
+                break;
             default:
+                k1 = null;
                 System.out.println("Pilih antara 1-3");
         }
 
