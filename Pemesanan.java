@@ -44,17 +44,17 @@ public class Pemesanan {
     }
 
     public void display(){
-       System.out.println("Nomor Pesanan: " + noPesanan);
+        System.out.println("Nomor Pesanan       : " + noPesanan);
         pelanggan.display();
         kendaraan.display();
         System.out.println("Lama Penyewaan (jam): " + lamaPenyewaan);
-        System.out.println("Diskon Member: " + hargaDiskon);
-        System.out.println("Biaya Pengiriman: " + ongkosKirim);
-        System.out.println("Total Harga: " + (totalHarga - hargaDiskon + ongkosKirim));
-        System.out.println("Tanggal Pemesanan: " + tanggalPesanan);
-        System.out.println("Lama Penyewaan: " + lamaPenyewaan + " jam");
-        System.out.println("Mulai Peminjaman: " + tanggalMulai);
-        System.out.println("Selesai Peminjaman: " + tanggalSelesai);
+        System.out.println("Diskon Member       : " + hargaDiskon);
+        System.out.println("Biaya Pengiriman    : " + ongkosKirim);
+        System.out.println("Total Harga         : " + (totalHarga - hargaDiskon + ongkosKirim));
+        System.out.println("Tanggal Pemesanan   : " + tanggalPesanan);
+        System.out.println("Lama Penyewaan      : " + lamaPenyewaan + " jam");
+        System.out.println("Mulai Peminjaman    : " + tanggalMulai);
+        System.out.println("Selesai Peminjaman  : " + tanggalSelesai);
         allert();
     }
 }
