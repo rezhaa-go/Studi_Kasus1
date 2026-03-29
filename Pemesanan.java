@@ -46,7 +46,9 @@ public class Pemesanan {
     public void display(){
         System.out.println("Nomor Pesanan       : " + noPesanan);
         pelanggan.display();
+        System.out.println("==============================");
         kendaraan.display();
+        System.out.println("==============================");
         System.out.println("Lama Penyewaan (jam): " + lamaPenyewaan);
         System.out.println("Diskon Member       : " + hargaDiskon);
         System.out.println("Biaya Pengiriman    : " + ongkosKirim);
@@ -56,5 +58,7 @@ public class Pemesanan {
         System.out.println("Mulai Peminjaman    : " + tanggalMulai);
         System.out.println("Selesai Peminjaman  : " + tanggalSelesai);
         allert();
+        System.out.println("==============================");
+    }
     }
 }
