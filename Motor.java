@@ -1,4 +1,4 @@
-package Studi_Kasus2;
+package Studi_Kasus1;
 
 public class Motor extends Kendaraan {
     public Motor(){
@@ -23,11 +23,6 @@ public class Motor extends Kendaraan {
         System.out.println("3. STNK motor");
         System.out.println("4. Bensin penuh");
         System.out.println("5. Riding Gloves");
-    }
-
-    @Override
-    public double ongkosKirim(){
-        return 5000;
     }
 
     @Override
