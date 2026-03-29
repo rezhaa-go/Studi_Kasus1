@@ -8,6 +8,7 @@ public class Bis extends Kendaraan{
     }
 
     public void aturanBis(){
+        System.out.println("Aturan Penggunaan Bis:");
         System.out.println("1. Memiliki SIM");
         System.out.println("2. Menyerahkan KTP");
         System.out.println("3. Menaati Peraturan Lalu Lintas");
@@ -26,10 +27,12 @@ public class Bis extends Kendaraan{
 
     @Override
     void display(){
-        System.out.println("Tipe: " + tipeKendaraan);
-        System.out.println("Harga/hari: " + hargaKendaraan);
-        System.out.println("Maksimum Kapasitas: " + maksKapasitas);
-        System.out.println("Deskripsi: Sleeper Bus cocok untuk perjalanan jauh" );
+        System.out.println("Tipe                : " + tipeKendaraan);
+        System.out.println("Harga/jam           : " + hargaKendaraan);
+        System.out.println("Maksimum Kapasitas  : " + maksKapasitas);
+        System.out.println("Deskripsi          : Sleeper Bus cocok untuk perjalanan jauh" );
+        aturanBis();
+        kelengkapanBis();
     }
 }
 
