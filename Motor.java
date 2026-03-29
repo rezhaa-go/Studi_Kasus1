@@ -1,4 +1,4 @@
-package Studi_Kasus;
+package Studi_Kasus2;
 
 public class Motor extends Kendaraan {
     public Motor(){
@@ -8,6 +8,7 @@ public class Motor extends Kendaraan {
     }
 
     public void aturanMotor(){
+        System.out.println("Aturan Penggunaan Motor:");
         System.out.println("1. Gunakan Helm");
         System.out.println("2. Memiliki SIM");
         System.out.println("3. Menyerahkan KTP");
@@ -25,11 +26,17 @@ public class Motor extends Kendaraan {
     }
 
     @Override
+    public double ongkosKirim(){
+        return 5000;
+    }
+
+    @Override
     void display(){
-        System.out.println("Tipe: " + tipeKendaraan);
-        System.out.println("Harga/hari: " + hargaKendaraan);
-        System.out.println("Maksimum Kapasitas: " + maksKapasitas);
-        System.out.println("Deskripsi: Motor untuk 2 penumpang" );
+        System.out.println("Tipe                : " + tipeKendaraan);
+        System.out.println("Harga/hari          : " + hargaKendaraan);
+        System.out.println("Maksimum Kapasitas  : " + maksKapasitas);
+        System.out.println("Deskripsi          : Motor untuk 2 penumpang" );
+        aturanMotor();
+        kelengkapanMotor();
     }
 }
-
