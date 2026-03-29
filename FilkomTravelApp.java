@@ -71,11 +71,6 @@ public class FilkomTravelApp {
                     System.out.println();
 
                     System.out.println("======Struk Pemesanan======");
-                    pel1.display();
-                    System.out.println("Lama Penyewaan: " + lamaSewa);
-                    System.out.println("Tanggal Awal Peminjaman: " + awalPinjam);
-                    System.out.println("Tanggal Selesai Peminjaman: " + selesaiPinjam);
-                    k1.display();
                     p1.display();
                     System.out.println("===========================");
 
