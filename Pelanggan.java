@@ -35,8 +35,8 @@ public class Pelanggan {
 
 
     public void display(){
-        System.out.println("Nama: " + nama);
-        System.out.println("Nomor HP: " + noHP);
-        System.out.println("Member: " + (member ? "Ya" : "Bukan"));
+        System.out.println("Nama                : " + nama);
+        System.out.println("Nomor HP            : " + noHP);
+        System.out.println("Member              : " + (member ? "Ya" : "Bukan"));
     }
 }
